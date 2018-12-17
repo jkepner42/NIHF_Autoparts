@@ -1,0 +1,61 @@
+th{
+  text-align: left;
+}
+.Header-text{
+  color: black;
+}
+.App-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 10vmin;
+}
+.App-header {
+  background-color: #ffffff;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} 
+.Content-area{
+  background-color: #ffffff;
+  min-height: 100vh;
+  width: 100%
+}
+.table{
+  display: table;
+  width: 100%;
+}
+
+
+.table 
+tr:nth-child(even) {background-color: #ebebeb;}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  position:fixed;
+  background: white;
+  width: 80%;
+  height: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
