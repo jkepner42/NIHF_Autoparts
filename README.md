@@ -6,6 +6,6 @@ Open the root folder with VS Code and run npm install and then npm start in the 
 
 This will open your browser on port 3000 which should serve up the site while the api server will be running on port 42000.
 
-The database is file based using LiteDB. It is housed under the Server directory called autoparts.db. 
+The database is file based using LiteDB. It is a file housed under the Server directory called autoparts.db. 
 
 There should be a couple part entries present already.
